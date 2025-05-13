@@ -10,8 +10,8 @@ Hệ thống tạo chú thích (caption) cho hình ảnh.
 
 ### Project file structure:
 - Data:
-- - Flicker8k_Dataset – Dataset folder which contains 8091 images.
-- - Flickr_8k_text – Dataset folder which contains text files and captions of images.
+  - Flicker8k_Dataset – Dataset folder which contains 8091 images.
+  - Flickr_8k_text – Dataset folder which contains text files and captions of images.
 - models – It contains trained models.
 - models_2 - It contains the final trained models.
 - descriptions.txt – This text file contains all image names and their captions after preprocessing.
