@@ -3,6 +3,9 @@
 ------------------------------------------------------------------------------------------
 Hệ thống tạo chú thích (caption) cho hình ảnh.
 
+### Source code
+https://drive.google.com/drive/folders/1PZfpOvPtCvy_a0zOqmHHrp_3kZNq4a68?usp=drive_link
+
 ### Công nghệ sử dụng
 - Thao tác với hình ảnh PIL.
 - Tensorflow - keras để sử lý hình ảnh và văn bản.
@@ -22,5 +25,21 @@ Hệ thống tạo chú thích (caption) cho hình ảnh.
 - testing.ipynb – Python file for generating a caption of any image.
 - testing.py - Python file to execute the image caption generator.
 
-### Triển khai sử dụng hệ thống:
+### Sử dụng
+Đầu tiên, truy cập và tải folder từ Drive.
+
+### Requirements
+- Modules and dependencies in `requirements.txt`
+- Run `pip install -r requirements.txt`
+
+### Image caption generator
+- Để chạy script testing.py, sử dụng lệnh sau trong terminal hoặc command prompt:
+- python testing.py -i <image_path>
+- (image from "Data/Flicker8k_Dataset")
+
+### Example
+![image](https://github.com/user-attachments/assets/160ee9c8-0eac-4ebe-a68e-9747eb6f9270)
+
+
+
 
